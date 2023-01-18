@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JS</title>
+
+    <style>
+
+        body {
+            font: normal 1.3em sans-serif;
+        }
+
+    </style>
+
+</head>
+<body>
+    <script>
+
+        var sal = 1212
+        var name = window.prompt("Digite seu nome:")
+        document.writeln(`<h1>Seja bem-vindo(a) ${name}</h1>`)
+
+        document.write("<ul>")
+
+        document.writeln(`<li>Seu nome tem ${name.length} letras</li>`)
+        document.writeln(`<li>Seu nome em maiúsculo é: ${name.toUpperCase()} </li>`)
+        document.write(`<li>Seu nome em minúsculo é: ${name.toLowerCase()}</li>`)
+        document.write(`<li><strong>Informação importante: </strong> O salário mínimo no ano de 2022 é de ${sal.toLocaleString("pt-BR", {style: "currency", currency: "BRL"})}</li>`)
+
+        document.write("</ul>")
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+}
+
+header > h1 {
+    text-align: center;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    margin-top: 20px;
+}
+
+main {
+    background-color: rgb(146, 173, 58);
+    
+    text-align: center;
+    
+    margin: 50px;
+    padding: 15px;
+
+    border-radius: 15px;
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.42);
+    
+}
+
+main > p {
+   padding: 30px;
+   font-size: 20px;
+}
+
+footer {
+    padding: 0px;
+
+    font-style: italic;    
+    text-align: center;
+}
+
+div#foto {
+    border-radius: 100px;
+    
+}

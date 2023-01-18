@@ -1,0 +1,12 @@
+#location {
+    font: normal 20pt arial;
+
+    background-color: purple;
+    color: rgb(179, 219, 255);
+
+    width: 500px;
+    height: 200px;
+
+    line-height: 200px;
+    text-align: center;
+}

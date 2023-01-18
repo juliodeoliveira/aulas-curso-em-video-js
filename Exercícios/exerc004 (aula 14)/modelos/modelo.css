@@ -1,0 +1,28 @@
+body {
+   background-color: rgb(58, 58, 164);
+}
+
+h1 {
+   text-align: center;
+   font-family: sans-serif;
+   color: white;
+}
+
+section {
+   background-color: white;
+   
+   margin-left: 200px;
+   margin-right: 200px;
+   margin-bottom: 200px;
+   padding: 100px;
+   padding-bottom: 200px;
+   
+   border-radius: 20px;
+   
+}
+
+footer {
+   color: white;
+   font-family: sans-serif;
+   text-align: center;
+}

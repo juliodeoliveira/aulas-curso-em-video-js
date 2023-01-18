@@ -1,0 +1,7 @@
+var start = 0
+var end = 0
+var jump = 0
+
+for (start; start == end; start += jump) {
+   console.log(start)
+}

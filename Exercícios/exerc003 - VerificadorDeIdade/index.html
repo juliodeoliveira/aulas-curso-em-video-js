@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Verificador de idade!</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1>Verificador de idade</h1>
+   <div class="all">
+      <p class="info">Qual seu ano de nascimento? </p><input type="number" name="idade" id="age" min="0">
+
+      <br>
+      <!--Se o name for diferente, será possível marcar duas alternativas ao mesmo tempo-->
+      <p class="info">Sexo: </p> Masculino<input type="radio" name="mf" id="M" checked> Feminino<input type="radio" name="mf" id="F">
+
+      <br>
+
+      <input type="button" value="Verificar" onclick="verify()">
+
+      <p id="resultado">Preencha os dados para ver o resultado!</p> 
+
+   </div>
+</body>
+<script src="script.js"></script>
+</html>
