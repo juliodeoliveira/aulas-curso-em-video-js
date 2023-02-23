@@ -8,11 +8,12 @@ h1 {
    color: white;
 }
 
+
 section {
    background-color: white;
    
-   margin-left: 200px;
-   margin-right: 200px;
+   margin-left: 100px;
+   margin-right: 100px;
    margin-bottom: 200px;
    padding: 100px;
    padding-bottom: 200px;
@@ -21,9 +22,12 @@ section {
    
 }
 
+select {
+   width: 150px;
+}
+
 footer {
    color: white;
    font-family: sans-serif;
    text-align: center;
 }
-

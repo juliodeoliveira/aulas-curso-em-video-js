@@ -10,17 +10,23 @@
 <body>
 
    <header>
-      <h1>Título</h1>
+      <h1>Tabuada</h1>
    </header>   
 
    <section>
-      <div class="Text">1. Texto</div>
+      <p>
+         Número: <input type="number" name="table" id="table"> 
+         <input type="button" value="Calcular" onclick="calculate()">
+      </p>
 
-      <div class="Answer">2. Resposta (JS)</div>
+      <select name="select" id="selection" size="11">
+         <option>Aguardando informações...</option>
+      </select>
    </section>
 
    <footer>
       Criador do modelo: Curso em Vídeo
    </footer>
+   <script src="script.js"></script>
 </body>
 </html>
